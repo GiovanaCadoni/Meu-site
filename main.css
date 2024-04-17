@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body,
+input{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    padding: 16px 0;
+    background-color: palevioletred;
+    color: white;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img{
+    height: 320px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: palevioletred;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section img{
+    margin-right: 32px;
+}
+
+.amigurumi{
+    margin-right: 32px;
+}
+
+.yarn-recipes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.yarn-recipes article img{
+    height: 180px;
+}
+
+.yarn-recipes article {
+    width: 30%;
+}
+
+.yarn-recipes article h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.yarn-recipes article a {
+    background-color: rgb(202, 102, 118);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.yarn-recipes article a:hover{
+    text-decoration: underline;
+}
+
+.yarn-recipes article p,
+.yarn-recipes article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yarn-recipes article h3 {
+    font-size: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+#recipes .container,
+#form .container{
+    display: block;
+}
+
+.form-information{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button{
+    background-color: rgb(202, 102, 118);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(243, 127, 146);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(202, 102, 118);
+}
+
+footer{
+    background-color: palevioletred;
+    padding: 16px 0;
+    color: white;
+    font-size: 13px;
+}
+
+.social-media img{
+    height: 24px;
+}
+
+.social-media li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-media li a{
+    text-decoration: none;
+}
+
+.social-media img{
+    margin-top: 13px;
+}
+
+.rights{
+    margin-left: 500px;
+}
+
+
+
